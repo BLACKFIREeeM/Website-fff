@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLACKFIREEE's website</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            width: 80%;
+            margin: 40px auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .laptop-image {
+            flex: 1 1 400px; /* Flex properties for responsiveness */
+            max-width: 400px;
+            margin-right: 30px;
+            text-align: center;
+        }
+        .laptop-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .laptop-details {
+            flex: 2 1 500px; /* Flex properties for responsiveness */
+        }
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        .price {
+            font-size: 2em;
+            color: #e74c3c;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #2c3e50;
+            font-size: 1.8em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+            padding-left: 25px;
+            position: relative;
+        }
+        ul li::before {
+            content: '✓';
+            color: #3498db;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+        .contact-info {
+            margin-top: 30px;
+            background-color: #ecf0f1;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+        .contact-info a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+                flex-direction: column;
+                padding: 20px;
+            }
+            .laptop-image {
+                margin-right: 0;
+                margin-bottom: 30px;
+                max-width: 100%;
+            }
+            h1 {
+                font-size: 2em;
+            }
+            .price {
+                font-size: 1.8em;
+            }
+            h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="laptop-image">
+            <!-- Placeholder for laptop image -->
+            <img src="https://via.placeholder.com/400x300?text=HP+ZBook+Studio+G3" alt="HP ZBook Studio G3">
+        </div>
+        <div class="laptop-details">
+            <h1>HP ZBook Studio G3 - Powerhouse Mobile Workstation</h1>
+            <p class="price">#200,000</p>
+<p>For sale: a meticulously maintained HP ZBook Studio G3, designed for professionals who demand performance and reliability. This mobile workstation is in excellent condition and ready to tackle demanding tasks.</p>
+
+            <h2>Key Specifications:</h2>
+            <ul>
+                <li><strong>Processor:</strong> Intel Core i7</li>
+                <li><strong>Memory:</strong> 16GB DDR4 RAM</li>
+                <li><strong>Storage:</strong> 512GB Solid State Drive (SSD)</li>
+                <li><strong>Graphics:</strong> NVIDIA Quadro M1000M</li>
+                <li><strong>Condition:</strong> Excellent</li>
+            </ul>
+
+            <div class="contact-info">
+                <h2>Contact Information</h2>
+                <p>For inquiries, please contact: <a href="mailto:mohammedbello954@gmail.com">mohammedbello954@gmail.com</a></p>
+                <p><strong>Or mention \"BLACKFIREEE\'s website\" when you reach out.</strong></p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2026 BLACKFIREEE's website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
